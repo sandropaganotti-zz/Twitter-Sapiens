@@ -1,0 +1,17 @@
+This small script was created as a possible answer to Ruby Quiz 208: Twitter Personalities. 
+
+Twitter Sapiens work basically by extracting all the words from a given sentence (its 'personality')
+and then by extending these words using WordNet lexical dictionary (http://wordnet.princeton.edu/) in 
+order to create a small amounts of nouns, verbs and adjectives from this group.
+
+Then this 'mutually-related' words are composed using a sentence generator explained by Ola Bini 
+here: http://olabini.com/blog/2008/09/language-generation and available here:
+http://github.com/olabini/paipr/tree/7334d50b3b62924bc7c02effd22be0201658945b/lib/ch02.
+
+At the last step the sentence built in this way is uploaded into a target twitter account 
+as the quiz required. 
+
+You can have a look at a twitter-sapiens account and read some funny automatically generated tweets
+at this address: https://twitter.com/twsapiens
+
+Sandro Paganotti 
